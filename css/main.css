@@ -1,0 +1,16 @@
+/*reset default to 0 so you can write your own css*./
+
+
+* {
+    border:none;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+    
+    body{
+        font-size: sans-serif;
+        background-color:black;
+        color:white;
+        font-family:helvetica;
+
