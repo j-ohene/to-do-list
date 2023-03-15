@@ -48,5 +48,25 @@ article>h2{
 }
 ul{
     list-style-type: none;
-    
+}
+
+    article:first-of-type h2{
+      colour:white
+    }
+#inprogress{border-color:red}
+#inprogress h2{ color:red}
+
+ul li{
+    padding:6px 8px;
+    text-transform:uppercase;
+}
+#todo li:nth-child(odd) {
+    background-color:grey
+
+}
+#inprogress:li:nth-child(odd) {
+    background-color: rgb(135, 69, 69))
+}
+#done:li:nth-child(odd) {
+    background-color:green
 }
