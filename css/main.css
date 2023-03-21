@@ -64,15 +64,21 @@ ul li{
     padding:6px 8px;
     text-transform:uppercase;
 }
+#checkboxes article ul li {
+    margin:none;
+    float:right
+}
 #todo li:nth-child(odd) {
     background-color:grey
 }
+
 #inprogress li:nth-child(odd) {
     background-color: rgb(135, 69, 69)
 }
 #done li:nth-child(odd) {
     background-color:rgb(27, 74, 27)
 }
+
 /*responsive code*/
 article {
     width:100%;
