@@ -14,7 +14,9 @@
         background-color:rgb(128, 149, 236);
         color:white;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     }
+
     header>h1 {
         text-align:center;
         padding:8px;
@@ -23,13 +25,6 @@
     }
 main{ text-align: center;}
 
-#backdrop {
-    background-image:url('/img/two_starfish_beach.jpg');
-    background-repeat: no-repeat;
-    background-size: 12px 10px 12px 10px;
-
-
-}
 
 article{
     border-radius: 4px;
@@ -47,7 +42,8 @@ article{
    
     text-align:left;
     width: 30px;
-
+    background-repeat:none;
+    background-size:cover;
     
 }
 article>h2{
@@ -62,8 +58,10 @@ article:first-of-type {
 }
 
 article:first-of-type h2{
-     colour:white;
+     color:white;
 }
+
+
 #inprogress{border-color:rgb(155, 117, 23)}
 #inprogress h2{ color:goldenrod}
 #done{border-color:green}
@@ -98,11 +96,13 @@ background-color: gold;
 }
 #done li:hover{
     cursor: pointer;
-    background-color:green}
+    background-color:green;}
+
 #done input[type="checkbox"]:checked{
-    box-shadow: 0 0 0 5px purple;
+    box-shadow: 0 0 0 1px purple;
     border-color: brown;
     padding: 12px;}
+
 
 /*responsive code*/
 article {
