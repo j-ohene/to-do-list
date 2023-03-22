@@ -57,7 +57,7 @@ article{
 article>h2{
     color:rgb(24, 24, 54);
     padding: 4px 8px;
-    ;
+    
 }
 ul{
     list-style-type: none;
@@ -72,7 +72,7 @@ article:first-of-type h2{
 
 
 #inprogress{border-color:rgb(155, 117, 23)}
-#inprogress h2{ color:goldenrod}
+#inprogress h2{ color:rgb(85, 64, 13)}
 #done{border-color:green}
 ul li{
     padding:6px 8px;
