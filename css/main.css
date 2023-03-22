@@ -13,7 +13,7 @@
         font-size: sans-serif;
         background-color:rgb(128, 149, 236);
         color:white;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     header>h1 {
         text-align:center;
@@ -22,6 +22,14 @@
         
     }
 main{ text-align: center;}
+
+#backdrop {
+    background-image:url('/img/two_starfish_beach.jpg');
+    background-repeat: no-repeat;
+    background-size: 12px 10px 12px 10px;
+
+
+}
 
 article{
     border-radius: 4px;
@@ -36,10 +44,9 @@ article{
     margin-top: 10px;
     margin-bottom:10px;
 
-    margin: 10px 12px 10px 12px;
-    margin:10px 12px;
+   
     text-align:left;
-    width:25px
+    width: 30px;
 
     
 }
@@ -65,19 +72,37 @@ ul li{
     text-transform:uppercase;
 }
 #checkboxes article ul li {
-    margin:none;
+    margin:5px;
     float:right;
+    padding:12px;
 }
+
 #todo li:nth-child(odd) {
     background-color:rgb(156, 77, 77)
 }
+#todo li:hover{
+    cursor: pointer;
+    background-color:red}
 
 #inprogress li:nth-child(odd) {
     background-color: rgb(131, 97, 12)
 }
+#inprogress li:hover{
+cursor: pointer;
+background-color: gold;
+
+}
 #done li:nth-child(odd) {
     background-color:rgb(27, 74, 27)
+
 }
+#done li:hover{
+    cursor: pointer;
+    background-color:green}
+#done input[type="checkbox"]:checked{
+    box-shadow: 0 0 0 5px purple;
+    border-color: brown;
+    padding: 12px;}
 
 /*responsive code*/
 article {
