@@ -46,9 +46,16 @@ article{
     background-size:cover;
     
 }
+#starfish{
+    background-color:rgb(128, 149, 236);
+    background-image:url('/img/two_starfish_beach.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
 article>h2{
-    color:black;
-    padding: 4px 8px;
+    color:rgb(24, 24, 54);;
 }
 ul{
     list-style-type: none;
