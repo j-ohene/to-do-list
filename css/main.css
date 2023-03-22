@@ -1,0 +1,122 @@
+
+/*reset default to 0 so you can write your own css*/
+
+
+*{
+    border:none;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+    
+    body{
+        font-size: sans-serif;
+        background-color:rgb(128, 149, 236);
+        color:white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    header>h1 {
+        text-align:center;
+        padding:8px;
+
+        
+    }
+main{ text-align: center;}
+
+
+article{
+    border-radius: 4px;
+    border-style: dashed;
+    border-color: rgb(82, 22, 22);
+    
+    border: 8px solid gray;
+    
+    display: inline-block;
+    margin-left:12px;
+    margin-right:12px;
+    margin-top: 10px;
+    margin-bottom:10px;
+
+   
+    text-align:left;
+    width: 30px;
+    background-repeat:none;
+    background-size:cover;
+    
+}
+article>h2{
+    color:black;
+    padding: 4px 8px;
+}
+ul{
+    list-style-type: none;
+}
+article:first-of-type {
+    border-color: rgb(82, 22, 22);
+}
+
+article:first-of-type h2{
+     color:white;
+}
+
+
+#inprogress{border-color:rgb(155, 117, 23)}
+#inprogress h2{ color:goldenrod}
+#done{border-color:green}
+ul li{
+    padding:6px 8px;
+    text-transform:uppercase;
+}
+#checkboxes article ul li {
+    margin:5px;
+    float:right;
+    padding:12px;
+}
+
+#todo li:nth-child(odd) {
+    background-color:rgb(156, 77, 77)
+}
+#todo li:hover{
+    cursor: pointer;
+    background-color:red}
+
+#inprogress li:nth-child(odd) {
+    background-color: rgb(131, 97, 12)
+}
+#inprogress li:hover{
+cursor: pointer;
+background-color: gold;
+
+}
+#done li:nth-child(odd) {
+    background-color:rgb(27, 74, 27)
+
+}
+#done li:hover{
+    cursor: pointer;
+    background-color:green;}
+
+#done input[type="checkbox"]:checked{
+    box-shadow: 0 0 0 1px purple;
+    border-color: brown;
+    padding: 12px;}
+
+
+/*responsive code*/
+article {
+    width:100%;
+    margin:10px 0px;
+}
+main {
+    margin:0 12px;
+}
+@media(min-width:960px){
+    article{
+        width:25%;
+        margin:10px 12px;
+    }
+    main{margin:0;}    
+}
+
