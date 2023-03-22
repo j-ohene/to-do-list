@@ -111,7 +111,10 @@ background-color: gold;
     border-color: brown;
     padding: 12px;}
 
-
+#done article h2 input[type="checkbox"]::after{
+    content:url('/img/Symbol_thumbs_up.svg');
+    border:none;
+}
 /*responsive code*/
 article {
     width:100%;
