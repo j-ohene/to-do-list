@@ -46,8 +46,16 @@ article{
     background-size:cover;
     
 }
+#starfish{
+    background-color:rgb(128, 149, 236);
+    background-image:url('/img/two_starfish_beach.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
 article>h2{
-    color:black;
+    color:rgb(24, 24, 54);
     padding: 4px 8px;
 }
 ul{
@@ -58,12 +66,12 @@ article:first-of-type {
 }
 
 article:first-of-type h2{
-     color:white;
+     color:rgb(24, 24, 54);;
 }
 
 
 #inprogress{border-color:rgb(155, 117, 23)}
-#inprogress h2{ color:goldenrod}
+#inprogress h2{ color:rgb(85, 64, 13)}
 #done{border-color:green}
 ul li{
     padding:6px 8px;
