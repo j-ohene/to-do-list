@@ -11,7 +11,7 @@
     
     body{
         font-size: sans-serif;
-        background-color:black;
+        background-color:rgb(128, 149, 236);
         color:white;
         font-family:Arial, Helvetica, sans-serif;
     }
@@ -26,7 +26,7 @@ main{ text-align: center;}
 article{
     border-radius: 4px;
     border-style: dashed;
-    border-color: white;
+    border-color: rgb(82, 22, 22);
     
     border: 8px solid gray;
     
@@ -44,21 +44,21 @@ article{
     
 }
 article>h2{
-    color:grey;
+    color:black;
     padding: 4px 8px;
 }
 ul{
     list-style-type: none;
 }
 article:first-of-type {
-    border-color: white;
+    border-color: rgb(82, 22, 22);
 }
 
 article:first-of-type h2{
      colour:white;
 }
-#inprogress{border-color:red}
-#inprogress h2{ color:red}
+#inprogress{border-color:rgb(155, 117, 23)}
+#inprogress h2{ color:goldenrod}
 #done{border-color:green}
 ul li{
     padding:6px 8px;
@@ -66,14 +66,14 @@ ul li{
 }
 #checkboxes article ul li {
     margin:none;
-    float:right
+    float:right;
 }
 #todo li:nth-child(odd) {
-    background-color:grey
+    background-color:rgb(156, 77, 77)
 }
 
 #inprogress li:nth-child(odd) {
-    background-color: rgb(135, 69, 69)
+    background-color: rgb(131, 97, 12)
 }
 #done li:nth-child(odd) {
     background-color:rgb(27, 74, 27)
