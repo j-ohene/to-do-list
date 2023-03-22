@@ -55,7 +55,9 @@ article{
 
 }
 article>h2{
-    color:rgb(24, 24, 54);;
+    color:rgb(24, 24, 54);
+    padding: 4px 8px;
+    ;
 }
 ul{
     list-style-type: none;
